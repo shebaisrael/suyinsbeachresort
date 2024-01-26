@@ -12,6 +12,8 @@ html{
 nav{
   position:fixed;
   top:0;
+  left:0;
+  right:0;
   padding:20px;
   color:white;
   font-weight:bold;
@@ -19,10 +21,39 @@ nav{
   font-size:large;
   text-shadow:1px 1px 1px #3a3a3a;
   display:flex;
-  justify-content:space-between;
+  justify-content:center;
   align-items:center;
   height:100px;
   z-index:100;
+  
+  }
+
+  .nav2{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding:20px;
+    color:white;
+    font-weight:bold;
+    font-family: 'Sawarabi Mincho', serif;
+    font-size:large;
+    text-shadow:1px 1px 1px #3a3a3a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100px;
+      
+    margin-bottom:150px;
+    }
+
+  body{
+    scroll-margin-top:100px;
+    margin-top:100px;
+  }
+
+  .blue{
+    color:rgb(56,113,194);
   }
 
 .flex_div{
@@ -53,6 +84,12 @@ nav{
 .phone{
   height:100%;
   width:100%;
+}
+
+.phone2{
+  height:100%;
+  width:100%;
+  color:rgb(56,113,194);
 }
 
 .phone_container{
@@ -316,7 +353,7 @@ text-shadow:1px 1px 1px #3a3a3a;
 
 .hyperlink_h1{
   padding-left:100px;
-  background-color:white;
+  background-color:yellow;
 }
 
 .roomtype_container img{
@@ -381,4 +418,8 @@ text-shadow:1px 1px 1px #3a3a3a;
 
 .card a{
   text-decoration:none;
+}
+
+.main{
+  margin-top:180px;
 }
