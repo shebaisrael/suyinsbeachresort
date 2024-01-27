@@ -9,48 +9,69 @@ html{
   
 }
 
-nav{
-  position:fixed;
-  top:0;
-  left:0;
-  right:0;
-  padding:20px;
+.nav3{
+      position:fixed;
+      top:0;
+      
+      color:white;
+      font-weight:bold;
+      font-family: 'Sawarabi Mincho', serif;
+      text-shadow:1px 1px 1px #3a3a3a;
+      background-color:rgb(56,113,194);
+            
+}
+
+.nav4{
+  text-align:center;
   color:white;
   font-weight:bold;
   font-family: 'Sawarabi Mincho', serif;
-  font-size:large;
   text-shadow:1px 1px 1px #3a3a3a;
+  background-color:rgb(56,113,194);
+        
+}
+
+nav{
+  
+  
   display:flex;
   justify-content:center;
   align-items:center;
-  height:100px;
+  color:white;
+  font-weight:bold;
+  font-family: 'Sawarabi Mincho', serif;
+  text-align:center;
+  font-size:large;
+  text-shadow:1px 1px 1px #3a3a3a;
+  padding-bottom:100px;
+  
   z-index:100;
   
   }
 
+  .inner_nav{
+    margin-left:10px;
+    text-align:start;
+    font-size:small;
+  }
+
+  
+
   .nav2{
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    padding:20px;
+       
     color:white;
     font-weight:bold;
     font-family: 'Sawarabi Mincho', serif;
     font-size:large;
     text-shadow:1px 1px 1px #3a3a3a;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100px;
-      
-    margin-bottom:150px;
+    
+    
+    
     }
 
-  body{
-    scroll-margin-top:100px;
-    margin-top:100px;
-  }
+    
+
+  
 
   .blue{
     color:rgb(56,113,194);
@@ -98,7 +119,7 @@ nav{
 }
 
 .section{
-  scroll-padding-top:150px;
+  
   height:100vh;
   background-repeat:no-repeat;
   background-size:cover;
@@ -109,7 +130,7 @@ nav{
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  padding:30px;
+  
   color:white;
   font-weight:bold;
   font-family: 'Sawarabi Mincho', serif;
@@ -151,10 +172,10 @@ nav{
   
 }
 
-
 .first{
   background-image:url(img/sample_beachpic.jpg); 
 }
+
 
 .second{
   background-image:url(img/sample_higatangan.jpg); 
@@ -352,7 +373,7 @@ text-shadow:1px 1px 1px #3a3a3a;
 }
 
 .hyperlink_h1{
-  padding-left:100px;
+  text-align:center;
   background-color:yellow;
 }
 
@@ -362,24 +383,23 @@ text-shadow:1px 1px 1px #3a3a3a;
 }
 
 .roomtype_container{
-  height:600px;
-  min-width:600px;
+  
+  max-width:100%;
   flex:1.5;
   padding:40px;
 }
 
 .room{
   
-  padding:20px;
+  
   max-width:1800px;
   margin-inline:auto;
-  display:flex;
-  flex-wrap:wrap;
+  
 }
 
 .room_text{
   flex:1;
-  min-width:500px;
+  
 }
 
 .room_text p, .room_text h2, .room_text h4{
@@ -406,8 +426,8 @@ text-shadow:1px 1px 1px #3a3a3a;
   
 }
 
-.banca_wrapper{
-  
+.banca_wrapper h3{
+  margin-inline:10%;
   
 }
 
@@ -420,6 +440,7 @@ text-shadow:1px 1px 1px #3a3a3a;
   text-decoration:none;
 }
 
-.main{
-  margin-top:180px;
+.link_class{
+  text-decoration:none;
 }
+
