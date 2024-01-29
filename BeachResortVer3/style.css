@@ -1,0 +1,462 @@
+*{
+  margin:0;
+  padding:0;
+  
+}
+
+html{
+  scroll-snap-type:y mandatory;
+  
+}
+
+.nav3{
+      position:fixed;
+      top:0;
+      left:0;
+      right:0;
+      color:white;
+      font-weight:bold;
+      font-family: 'Sawarabi Mincho', serif;
+      text-shadow:1px 1px 1px #3a3a3a;
+      background-color:rgb(56,113,194);
+      z-index:1000;
+      text-align:center;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      font-size:large;
+            
+}
+
+.main{
+  margin-top:110px;
+}
+
+.nav3 h2{
+text-decoration:underline;
+text-underline-offset:10px;
+padding-bottom:5px;
+}
+
+.nav3_active{
+  color:yellow;
+}
+
+.nav3_flex{
+  display:flex;
+  justify-content:space-evenly;
+  gap:15px;
+  align-items:center;
+  padding:10px;
+}
+
+.nav4{
+  text-align:center;
+  color:white;
+  font-weight:bold;
+  font-family: 'Sawarabi Mincho', serif;
+  text-shadow:1px 1px 1px #3a3a3a;
+  background-color:rgb(56,113,194);
+        
+}
+
+nav{
+  
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  font-weight:bold;
+  font-family: 'Sawarabi Mincho', serif;
+  text-align:center;
+  font-size:large;
+  text-shadow:1px 1px 1px #3a3a3a;
+  padding-bottom:100px;
+  
+  z-index:100;
+  
+  }
+
+  .inner_nav{
+    margin-left:10px;
+    text-align:start;
+    font-size:small;
+    color:yellow;
+  }
+
+  
+
+  .nav2{
+       
+    color:white;
+    font-weight:bold;
+    font-family: 'Sawarabi Mincho', serif;
+    font-size:large;
+    text-shadow:1px 1px 1px #3a3a3a;
+    
+    
+    
+    }
+
+    
+
+  
+
+  .blue{
+    color:rgb(56,113,194);
+  }
+
+.flex_div{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px;
+}
+
+.reserve{
+  margin-left:20px;
+}
+
+.flex_div h1{
+  padding:20px;
+  font-size:large;
+}
+
+.logocontainer{
+  height:100px;
+  
+}
+
+.logo{
+  height:100%;
+}
+
+.phone{
+  height:100%;
+  width:100%;
+}
+
+.phone2{
+  height:100%;
+  width:100%;
+  color:rgb(56,113,194);
+}
+
+.phone_container{
+  height:50px;
+  width:30px;
+}
+
+.section{
+  
+  height:100vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  scroll-snap-align:start;
+  scroll-snap-stop:always;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  
+  color:white;
+  font-weight:bold;
+  font-family: 'Sawarabi Mincho', serif;
+  font-size:large;
+  text-shadow:1px 1px 1px #3a3a3a;
+  text-align:center;
+}
+
+.clicker{
+  padding-top:30px;
+  text-decoration:none;
+  color:white;
+  font-weight:bold;
+  font-family: 'Sawarabi Mincho', serif;
+  letter-spacing:5px;
+  text-shadow:1px 1px 1px #3a3a3a;
+  position:relative;
+}
+
+
+
+.clicker::after{
+  content: '';
+  height:2px;
+  width:100%;
+  background:white;
+  display:block;
+  position:absolute;
+  left:0;
+  bottom:-12px;
+  opacity:0;
+  transition:all 1s;
+  pointer-events:none;
+}
+
+.clicker:hover::after{
+  opacity:1;
+ 
+  
+}
+
+.room_text h1{
+  text-align:center;
+}
+
+.first{
+  background-image:url(img/images/pool2.jpg); 
+}
+
+
+.second{
+  background-image:url(img/images/higatangan2.jpg); 
+}
+
+.third{
+  background-image:url(img/images/kayak3.jpg )
+}
+
+.fourth{
+  background-image:url(img/Sambawan2.jpg); 
+}
+
+.fifth{
+  background-image:url(img/pool1.jpg); 
+}
+
+.sixth{
+  background-image:url(img/sample_relax.jpg); 
+}
+
+.seventh{
+  scroll-padding-top:150px;
+  scroll-snap-align:start;
+  scroll-snap-stop:always;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  font-weight:bold;
+  font-family: 'Sawarabi Mincho', serif;
+  font-size:large;
+  text-shadow:1px 1px 1px #3a3a3a;
+  text-align:center;
+  margin-bottom:100px;
+  overflow:hidden;
+  position:relative;
+}
+
+.seventh_top_par{
+  margin-top:170px;
+  
+}
+
+.card_wrapper{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:50px;
+  justify-content:center;
+  align-items:start;
+  overflow:hidden;
+  position:relative;
+  margin-inline:auto;
+  
+}
+
+.card{
+  overflow:hidden;
+  position:relative;
+  max-width:500px;
+}
+
+.card_header{
+  background-color:rgb(56,113,194);
+  height:100px;
+  overflow:hidden;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  font-family: 'Sawarabi Mincho', serif;
+  font-size:x-large;
+  text-shadow:1px 1px 1px #3a3a3a;
+}
+
+
+.card_image_container{
+  
+  color:rgb(43, 41, 41);
+  font-family: 'Sawarabi Mincho', serif;
+  text-align:center;
+  padding:30px;
+  overflow:hidden;
+  position:relative;
+  transition:2s;
+}
+
+.card:hover .card_image_container{
+  transform:scale(1.1);
+}
+
+.card_image_container:hover{
+  transform:scale(1.1);
+}
+
+
+
+.eight{
+  height:100vh;
+  
+  scroll-snap-align:start;
+  scroll-snap-stop:always;
+}
+
+
+.bar_one{
+background-color:rgb(51, 172, 172);
+padding:25px;
+color:white;
+
+font-family: 'Sawarabi Mincho', serif;
+
+text-shadow:1px 1px 1px #3a3a3a;
+}
+
+.bar_one ul{
+  display:flex;
+  justify-content:center;
+  gap:2rem 4rem;
+  flex-wrap:wrap;
+  padding:20px;
+}
+
+.bar_two{
+  background-image:url(img/collage3_picnic.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:400px;
+  color:white;
+  font-family: 'Sawarabi Mincho', serif;
+  text-shadow:1px 1px 1px #3a3a3a;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px;
+}
+
+.bar_three{
+  background-color:black;
+  color:white;
+  text-align:center;
+  padding:100px;
+}
+
+.bar_four{
+  background-color:rgb(56,113,194);
+  flex:1;
+  height:500px;
+}
+
+.social_media_icons{
+  display:flex;
+  gap: 2rem;
+  margin-right:50px;
+}
+
+.social_media_wrapper{
+  height:75px;
+  width:75px;
+  cursor:pointer;
+}
+
+.social_media_wrapper img{
+  height:100%;
+  width:100%;
+}
+
+.hyperlink{
+  text-decoration:none;
+  color:rgb(56,113,194);
+  
+}
+
+.hyperlink_h1{
+  text-align:center;
+  background-color:yellow;
+}
+
+.roomtype_container img{
+  height:100%;
+  width:100%;
+}
+
+.roomtype_container{
+  
+  max-width:100%;
+  flex:1.5;
+  padding:40px;
+}
+
+.room{
+  
+  
+  max-width:1800px;
+  margin-inline:auto;
+  
+}
+
+.room_text{
+  flex:1;
+  
+}
+
+.room_text p, .room_text h2, .room_text h4{
+  padding:20px;
+}
+
+.room_text ul li{
+  padding:10px;
+  margin-left:30px;
+}
+
+
+.islandboat_container{
+  max-width:1500px;
+  margin-inline:auto;
+  
+  text-align:center;
+  margin-bottom:50px;
+}
+
+.islandboat_container h2{
+  font-family: 'Sawarabi Mincho', serif;
+  text-shadow:1px 1px 1px #3a3a3a;
+  
+}
+
+.banca_wrapper h3{
+  margin-inline:10%;
+  
+}
+
+.banca_wrapper img{
+  height:90%;
+  width:90%;
+}
+
+.card a{
+  text-decoration:none;
+}
+
+.link_class{
+  text-decoration:none;
+}
+
